@@ -56,7 +56,8 @@ You can modify the following variables at the top of the script or inside the `e
 | :--- | :--- | :--- |
 | `electron_num` | Top of Script | Number of particles to simulate (Default: 5). |
 | `Mu` | Top of Script | Drag coefficient. Set **>0** for relaxation (finding shapes), or **0** for chaotic motion. |
-| `tspan` | Top of Script | Duration and time-step of the solver. |
+| `tspan` | Top of Script | Max duration and time-step of the solver. |
+| `r_sum_limit` | Top of Script | Duration (based on desired **r_sum**) of the solver. |
 
 ## Author
 
